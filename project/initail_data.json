@@ -1,0 +1,188 @@
+[
+  {
+    "model": "neksio_api.countries",
+    "pk": "2fa0e3ce-dba4-4c85-89ae-3dd9cb028a09",
+    "fields": {
+      "name": "Pakistan",
+      "slug": "pakistan",
+      "short_name": "PK",
+      "country_code": "+92",
+      "disabled": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "neksio_api.countries",
+    "pk": "b8321e40-9f25-40b4-a8d2-e51197dd87c2",
+    "fields": {
+      "name": "Saudi Arabia",
+      "slug": "saudi-arabia",
+      "short_name": "SA",
+      "country_code": "+966",
+      "disabled": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "neksio_api.countries",
+    "pk": "b8321e40-9f25-40b4-a8d2-e51197dd87b4",
+    "fields": {
+      "name": "Egypt",
+      "slug": "egypt",
+      "short_name": "EG",
+      "country_code": "+20",
+      "disabled": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "neksio_api.businesstypes",
+    "pk": "c47c9ae0-fc9d-46de-8855-539a2b0c93b5",
+    "fields": {
+      "slug": "mobile-electronics",
+      "name": "Mobile / Electronics",
+      "description": ["Shops", "Stores"],
+      "description_ar": ["متاجر", "محلات"],
+      "url": "https://example.com/retail",
+      "parent": null
+    }
+  },
+  {
+    "model": "neksio_api.businesstypes",
+    "pk": "c47c9ae0-fc9d-46de-8855-539a2b0c93b4",
+    "fields": {
+      "slug": "building-materials",
+      "name": "Building Materials",
+      "description": ["Shops", "Stores"],
+      "description_ar": ["متاجر", "محلات"],
+      "url": "https://example.com/retail",
+      "parent": null
+    }
+  },
+  {
+  "model": "accounts.rolegroup",
+  "pk": 1,
+  "fields": {
+    "group_name": "administrator",
+    "group_code": "1c9eba35-7216-46ec-be52-8f4ffb254f9f",
+    "group_permissions": [],
+    "default_location": null,
+    "visible": true
+  }
+},
+{
+  "model": "accounts.rolegroup",
+  "pk": 2,
+  "fields": {
+    "group_name": "developer",
+    "group_code": "323209a2-d3b2-4391-90c0-57e891bdbbbd",
+    "group_permissions": [],
+    "default_location": null,
+    "visible": false
+  }
+},
+{
+  "model": "accounts.rolegroup",
+  "pk": 3,
+  "fields": {
+    "group_name": "owner",
+    "group_code": "d4b8070a-c690-4cf0-922e-edd5c5dae5a5",
+    "group_permissions": [],
+    "default_location": null,
+    "visible": false
+  }
+},
+{
+  "model": "accounts.rolegroup",
+  "pk": 4,
+  "fields": {
+    "group_name": "setup",
+    "group_code": "36c89ad9-7dea-41f9-bb50-08c37ee68144",
+    "group_permissions": [],
+    "default_location": null,
+    "visible": false
+  }
+},
+{
+  "model": "accounts.rolegroup",
+  "pk": 5,
+  "fields": {
+    "group_name": "signup",
+    "group_code": "c63adf73-6df1-4f69-83d4-180110aad047",
+    "group_permissions": [],
+    "default_location": null,
+    "visible": false
+  }
+},
+  {
+    "model": "neksio_api.businesspackages",
+    "pk": "e4f91af6-588b-4cc3-a124-2a08fd35638a",
+    "fields": {
+      "slug": "starter-plan",
+      "package_name": "Starter",
+      "default_package": true,
+      "package_code": "5d8b8d93-5450-4894-86a8-699dddeb1cd0",
+      "services": ["POS", "Inventory"]
+    }
+  },
+  {
+    "model": "neksio_api.businesspackages",
+    "pk": "b6d56e29-3ef8-4e46-90db-04b9a7a83083",
+    "fields": {
+      "slug": "growth-plan",
+      "package_name": "Professional",
+      "discount": "10",
+      "price": "10",
+      "default_package": false,
+      "package_code": "c604db3f-d1bd-4ff9-9255-8bb87c19ee16",
+      "services": ["POS", "Inventory", "Analytics", "CRM", "AI Chat with Business"]
+    }
+  },
+  {
+    "model": "neksio_api.businesspackages",
+    "pk": "f7a4f082-05b6-4a2f-b3d1-1dbf0e3b21b8",
+    "fields": {
+      "slug": "enterprise-plan",
+      "package_name": "Enterprise",
+      "discount": "15",
+      "price": "15",
+      "default_package": false,
+      "package_code": "6baf6cbb-78c8-4b0b-8cc7-ce66f88f27e1",
+      "services": ["POS", "Inventory", "Analytics", "CRM", "Accounting", "API Access", "AI Chat with Business"]
+    }
+  },
+
+  {
+    "model": "neksio_api.financialaccounts",
+    "pk": "11111111-1111-1111-1111-111111111111",
+    "fields": {
+      "code": "CG-0002",
+      "title": "Opening Balance",
+      "type": "CGS",
+      "is_sub_ledger_control": false,
+      "sub_ledger_type": null,
+      "parent": null,
+      "is_ordinary": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  },
+  {
+    "model": "neksio_api.financialaccounts",
+    "pk": "22222222-2222-2222-2222-222222222222",
+    "fields": {
+      "code": "CG-0003",
+      "title": "Closing Balance",
+      "type": "CGS",
+      "is_sub_ledger_control": false,
+      "sub_ledger_type": null,
+      "parent": null,
+      "is_ordinary": false,
+      "created_at": "2025-06-30T00:00:00Z",
+      "updated_at": "2025-06-30T00:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+# PyCharm/IntelliJ IDE settings
+.idea/
+*.iml
+
+# SonarLint/Index files
+*.pb
+
+# XML configs (only IDE related, not project ones)
+*.xml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venvs/
+venvs/
+.env/

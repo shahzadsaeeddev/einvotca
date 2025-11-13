@@ -1,0 +1,41 @@
+oid_section = my_oids
+[my_oids]
+tsa_policy1 =1.3.6.1.4.1.311.20.2
+
+[ req ]
+default_bits	=     2048
+emailAddress 	=     bilaljmal@gmail.com
+req_extensions    =   v3_req
+x509_extensions	=     v3_ca	# The extensions to add to the self signed cert
+prompt =     no
+default_md        =     sha256
+req_extensions    =     req_ext
+distinguished_name = dn
+
+
+
+[ dn ]
+C=SA
+O=
+OU=
+CN=shahzad
+
+[ req_ext ]
+
+1.3.6.1.4.1.311.20.2 =ASN1:PRINTABLESTRING:ZATCA-Code-Signing
+subjectAltName = dirName:alt_names
+
+[ v3_req ]
+
+# Extensions to add to a certificate request
+
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment
+
+
+[ alt_names ]
+SN=1-einvotca |2- v1 |3-30e1073f-6921-4f1d-8a2a-ec113b8421f3
+UID=333333333333333
+title=1100
+registeredAddress=testing
+businessCategory=
